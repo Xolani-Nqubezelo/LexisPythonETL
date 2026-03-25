@@ -35,9 +35,9 @@ def load_dataframe(df: pd.DataFrame, table_name: str):
                 except Exception as e:
                     cur.execute("ROLLBACK TO SAVEPOINT row_savepoint")
                     print(f"Skipping row {values}: {e}")
-
+# I am printing out how many rows loaded
             conn.commit()
-            print(f"✅ Loaded {loaded_rows} rows into {table_name}")
+            print(f"Loaded {loaded_rows} rows into {table_name}")
 
     except Exception as e:
         if conn:
