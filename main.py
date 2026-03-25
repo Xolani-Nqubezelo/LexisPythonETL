@@ -40,7 +40,7 @@ def init():
         cur.execute(schema_sql)
         conn.commit()
 
-        print("✅ Schema created successfully")
+        print("Schema created successfully")
 
     except Exception as e:
         print(f"ERROR initializing schema: {e}")
@@ -97,7 +97,7 @@ def run(files_config):
     load_dataframe(customers, "customers")
     load_dataframe(orders, "orders")
     load_dataframe(items, "order_items")
-    print("\n✅ ETL pipeline completed successfully")
+    print("\n ETL pipeline completed successfully")
 
 
 # =========================
