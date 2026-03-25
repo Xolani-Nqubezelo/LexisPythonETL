@@ -1,3 +1,5 @@
+Database:
+<img width="813" height="399" alt="image" src="https://github.com/user-attachments/assets/775a5383-99bf-425d-bceb-10bf5efa3113" />﻿LexisPythonETL
 
 # ETL Project: Orders Pipeline
 
@@ -40,7 +42,6 @@ database:
 
 
 Postgres database:
-<img width="813" height="399" alt="image" src="https://github.com/user-attachments/assets/775a5383-99bf-425d-bceb-10bf5efa3113" />﻿LexisPythonETL
   
 Initialize the database schema:
 python main.py init
