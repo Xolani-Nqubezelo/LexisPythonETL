@@ -1,4 +1,4 @@
-﻿LexisPythonETL
+<img width="813" height="399" alt="image" src="https://github.com/user-attachments/assets/775a5383-99bf-425d-bceb-10bf5efa3113" />﻿LexisPythonETL
 # ETL Project: Orders Pipeline
 
 This project is a Python-based ETL pipeline for processing **customers, orders, and order items** data.  
@@ -24,16 +24,20 @@ PostgreSQL database configured with access credentials (update Database/connecti
 Setup
 Configure database connection in Database/connection.py.
 Update file paths in config.yaml:
+
 files:
   customers: "data/customers.csv"
   orders: "data/orders.csv"
   order_items: "data/order_items.csv"
+
+  
 database:
   host: "localhost"
   port: 5432
   user: "your_db_user"
   password: "your_db_password"
   database: "orders_db"
+  
 Initialize the database schema:
 python main.py init
 Run ETL Pipeline
