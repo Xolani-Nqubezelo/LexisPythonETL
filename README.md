@@ -6,25 +6,11 @@ It extracts data from CSV files, transforms it to enforce data quality, and load
 The project also includes SQL views for analytics and data validation.
 
 ## **Project Structure**
-
-
-LexisNexus/ \n
-├──ETL/  \n
-│ ├──extract.py \n
-│ ├──transform.py
-│ └──load.py
-├──Database/
-│ ├──connection.py
-│ └──schema.sql
-├──config.yaml
-├──main.py
-└──README.md
-
-
 - `ETL/` – Contains extraction, transformation, and loading logic  
 - `Database/` – Connection helper and schema SQL  
 - `main.py` – Entry point to run the ETL pipeline  
-- `config.yaml` – File paths for source data files  
+- `config.yaml` – File paths for source data files
+- `data` - contains 2 csv files and 1 json
 
 ## **Prerequisites**
 
