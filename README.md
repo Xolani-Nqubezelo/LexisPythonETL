@@ -8,9 +8,9 @@ The project also includes SQL views for analytics and data validation.
 ## **Project Structure**
 
 
-LexisNexus/
-├──ETL/
-│ ├──extract.py
+LexisNexus/ \n
+├──ETL/  \n
+│ ├──extract.py \n
 │ ├──transform.py
 │ └──load.py
 ├──Database/
