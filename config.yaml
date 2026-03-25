@@ -1,0 +1,14 @@
+database:
+  host: localhost
+  port: 5432
+  dbname: orders_db
+  user: postgres
+  password: Lucia@1861
+
+files:
+  customers:  C:\\Users\\User\\Downloads\\LexisNexus\\data\\customers.csv
+  orders:  C:\\Users\\User\\Downloads\\LexisNexus\\data\\orders.jsonl
+  order_items:   C:\\Users\\User\\Downloads\\LexisNexus\\data\\order_items.csv
+
+
+  # C:/Users/User/Downloads/LexisNexus/Data/customers.csv
