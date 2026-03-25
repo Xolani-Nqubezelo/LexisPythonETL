@@ -10,7 +10,7 @@ The project also includes SQL views for analytics and data validation.
 ## **Project Structure**
 - `ETL/` – Contains extraction, transformation, and loading logic  
 - `Database/` – Connection helper and schema SQL  
-- `main.py` – Entry point to run the ETL pipeline  
+- `main.py` – Entry point to run the ETL pipeline  using this command:  python main.py run 
 - `config.yaml` – File paths for source data files
 - `data` - contains 2 csv files and 1 json
 
