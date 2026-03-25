@@ -9,16 +9,16 @@ The project also includes SQL views for analytics and data validation.
 
 
 LexisNexus/
-├── ETL/
-│ ├── extract.py
-│ ├── transform.py
-│ └── load.py
-├── Database/
-│ ├── connection.py
-│ └── schema.sql
-├── config.yaml
-├── main.py
-└── README.md
+├──ETL/
+│ ├──extract.py
+│ ├──transform.py
+│ └──load.py
+├──Database/
+│ ├──connection.py
+│ └──schema.sql
+├──config.yaml
+├──main.py
+└──README.md
 
 
 - `ETL/` – Contains extraction, transformation, and loading logic  
