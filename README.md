@@ -20,7 +20,6 @@ The project also includes SQL views for analytics and data validation.
 - PostgreSQL 12+
 - Required Python packages:
 
-```bash
 pip install pandas psycopg2-binary pyyaml
 PostgreSQL database configured with access credentials (update Database/connection.py)
 Setup
