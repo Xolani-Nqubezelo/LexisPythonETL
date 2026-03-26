@@ -20,7 +20,7 @@ The project also includes SQL views for analytics and data validation.
 - PostgreSQL 12+
 - Required Python packages:
 
-pip install pandas psycopg2-binary pyyaml
+pip install pandas, psycopg2-binary, pyyaml
 PostgreSQL database configured with access credentials (update Database/connection.py)
 Setup
 Configure database connection in Database/connection.py.
@@ -44,14 +44,15 @@ Postgres database:
   
 Initialize the database schema:
 python main.py init
+
 Run ETL Pipeline
 python main.py run
 Extracts CSV data from configured paths
 Transforms customers, orders, and order items with data quality rules
 Loads data into PostgreSQL tables
 Prints summary of records loaded and skipped
-Analytics Views
 
+## **Analytics Views**
 After running the ETL, you can query the following views:
 
 daily_metrics – Orders count, total revenue, and average order value per day
